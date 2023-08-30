@@ -1,1 +1,21 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>OCR Result</h1>
+    <h2>Extracted Text:</h2>
+    <p>{{ extracted_text }}</p>
+    <h2>Extracted Date:</h2>
+    <p>{{ date }}</p>
+    <h2>Extracted Aadhar Number:</h2>
+    <p>{{ number }}</p>
+    <h2>Extracted Sex:</h2>
+    <p>{{ sex }}</p>
+    <h2>Extracted Name:</h2>
+    <p>{{ name }}</p>
+    <a href="{{ url_for('upload_image') }}">Upload another image</a>
+</body>
+</html>
